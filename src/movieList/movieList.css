@@ -1,0 +1,14 @@
+.ant-spin-spinning {
+    position: absolute !important;
+    display: inline-block;
+    opacity: 1;
+}
+.ant-spin {
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    font-size: 50px;
+    width: 1em;
+    height: 1em;
+}

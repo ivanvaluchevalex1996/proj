@@ -1,0 +1,105 @@
+.articles-card{
+    width: 454px;
+    height: 293px;
+    box-shadow: 1px 1px 10px;
+}
+
+.container{ 
+    display: flex;
+    position: relative;
+}
+
+.movie-info{
+    
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.movie-info__title{
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 195px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.movie-info__date{
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #827E7E;
+}
+
+.movie-info__genre{
+    background-color: #fafafa;
+    border: 1px solid #d9d9d9;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.movie-info__description{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.movie__image{
+    width:183px;
+    height:293px;
+}
+
+.movie-info__rate{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 60px;
+    height:40px;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.ant-progress{
+    top:10px;
+    right:1px;
+}
+
+.ant-progress-inner{
+    width: 60px!important;
+    height: 60px!important;
+}
+
+.ant-progress-circle .ant-progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 1em;
+    font-size: 17px!important;
+    line-height: 1;
+    white-space: normal;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.ant-rate-star:not(:last-child) {
+    margin-right: -27px!important;
+}
+
+.ant-rate {
+    position: absolute!important;
+    right: 28px!important;
+    bottom: 2px!important;
+}
